@@ -1,0 +1,103 @@
+body {
+    background-color: #1D3557;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    height: 500px;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.calculator {
+    background-color: #F1FAEE;
+    height: 570px;
+    width: 320px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.display {
+    height: 80px;
+    padding: 40px;
+}
+
+.history {
+    height: 20px;
+    text-align: right;
+    font-size: 20px;
+    color: #919191;
+    margin-bottom: 20px;
+}
+
+.output {
+    height: 60px;
+    text-align: right;
+    font-size: 30px;
+}
+
+.keyboard {
+    height: 420px;
+    width: 340px;
+}
+
+.key {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.key:focus {
+    outline: 0;
+}
+
+.empty {
+    background-color: #F1FAEE;
+}
+
+.number {
+    background-color: #A8DADC;
+}
+
+.number:hover {
+    border: 2px solid #F1FAEE;
+}
+
+.number:active {
+    background-color: #B9F1F3;
+    font-size: 12px;
+}
+
+.operator {
+    background-color: #E63946;
+    font-size: 20px;
+}
+
+.operator:hover {
+    border: 2px solid #F1FAEE;
+}
+
+.operator:active {
+    background-color: #FD6B76;
+    font-size: 17px;
+}
+
+.clear {
+    background-color: #457B9D;
+}
+
+.clear:hover {
+    border: 2px solid #F1FAEE;
+}
+
+.clear:active {
+    background-color: #4E96C3;
+    font-size: 17px;
+}
